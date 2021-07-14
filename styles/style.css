@@ -1,7 +1,13 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body {
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p,
+a {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -98,4 +104,53 @@ a {
     line-height: 26px;
     text-align: left;
     color: #6C6C6C;
+}
+
+/* Highlights Section  */
+
+.container-three {
+    width: 100%;
+}
+
+.section-title-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.messi-photo {
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+    margin-bottom: 158px;
+}
+
+.copa-highlights {
+    width: 469px;
+    height: 309px;
+    margin-left: 152px;
+    margin-top: 224px;
+    margin-right: 66px;
+}
+
+/* Footer  */
+
+.footer-image img {
+    width: 483.87px;
+    height: 110px;
+    margin-left: 475px;
+}
+
+.socials {
+    margin-left: 650px;
+}
+
+.fab {
+    margin-right: 21px;
+}
+
+.copyright {
+    text-align: center;
+    margin-left: 120px;
+    font-size: 18px;
+    color: #000000;
 }
