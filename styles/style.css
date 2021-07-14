@@ -3,14 +3,12 @@
 
 
 h2,
-h3 {
-    font-family: 'Poppins', sans-serif;
-}
-
+h3,
 p,
 a {
     font-family: 'Poppins', sans-serif;
 }
+
 
 /* main css  */
 body {
@@ -156,10 +154,9 @@ a {
 }
 
 .player-img-two {
-    width: 250px;
-    height: 196px;
-    padding: 5px;
-    margin-right: 15px;
+    width: 220px;
+    height: 150px;
+    margin-right: 10px;
     margin-bottom: 20px;
 }
 
@@ -195,7 +192,11 @@ iframe {
 }
 
 .fab {
+    margin-top: 20px;
     margin-right: 21px;
+    color: #969BAB;
+    height: 32px;
+    width: 32px;
 }
 
 .copyright {
@@ -209,4 +210,24 @@ hr {
     border: 1px solid grey;
     border-radius: 90px;
     opacity: 30%;
+}
+
+
+/* Media Query  */
+
+@media only screen and(max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .main-section,
+    .container-two,
+    .section-title-two,
+    .photo-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner {
+        width: 50%;
+    }
 }
